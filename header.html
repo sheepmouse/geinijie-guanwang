@@ -1,0 +1,20 @@
+<header class="container clearfix">
+    <img class="fl" src="./images/logo.png" alt="">
+    <div class="nav fr clearfix">
+        <a href="./index.html">首页</a>
+        <a href="./CompanyIntroduction.html">公司介绍</a>
+        <a href="./questions.html">常见问题</a>
+        <a href="./borrow.html">借款流程</a>
+    </div>
+</header>
+<script>
+    $(document).ready(function () {
+        $("header .nav a").each(function () {
+            $this = $(this);
+            if ($this[0].href == String(window.location)) {
+                $this.addClass("navColor");
+            }
+        });
+    });
+
+</script>

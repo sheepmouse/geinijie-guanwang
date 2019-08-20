@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>给你借</title>
+    <!-- 重置样式表 -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <!-- 主页样式 -->
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+
+<body>
+   <div id="header"></div>
+    <section class="banner">
+        <img src="./images/banner.png" alt="">
+    </section>
+    <section class="container">
+        <img class="container" src="./images/banner2.png" alt="">
+    </section>
+    <section class="banner">
+        <img src="./images/banner3.png" alt="">
+    </section>
+    <section class="request container">
+        <div>
+            <h1>常见问题</h1>
+            <h3>1.给你借的借钱门槛高吗</h3>
+            <p>提供本人身份证，本人银行卡。年龄在18-55周岁的注册用户，均可申请给你借。<span>提示：给你借谢绝向在校大学生提供消费分期贷款，如您是在校大学生，请您放弃申请。</span></p>
+        </div>
+        <div>
+            <h3>2.给你借借款后多久可以到账?</h3>
+            <p>通过审核后最快3分钟到账，发放到银行卡。但因网络原因，到账时间可能会有延迟，具体到账时间请以收款银行卡通知为准。</p>
+        </div>
+        <div>
+            <h3>3.给你借是否可以提前还款？</h3>
+            <p>可以进行提前还款，今天借，明天就能还。还款时只计算截止到当天的利息。</p>
+        </div>
+    </section>
+    <div style="height: 350px;background-color:#FFA43C;"></div>
+   <div id="footer"></div>
+</body>
+<script src="./js/jquery.min.js"></script>
+<script>
+      $(function() {
+                $('#header').load('header.html');
+                $('#footer').load('footer.html');
+
+            })
+</script>
+
+</html>
